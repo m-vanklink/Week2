@@ -17,6 +17,8 @@
                 let result = num1 + num2;
 
                 let myOutput = num1 + " + " + num2 + " = " + result;
+
+                document.getElementById('result').innerHTML = myOutput;
             }
 
         </script>
@@ -28,7 +30,7 @@
         <input type="text" id="num1"><br/><br/>
 
         <label for="num2">Variable 2</label>
-        <input type="text" id="num2">
+        <input type="text" id="num2"><br/><br/>
 
         <button onclick="add()">Add</button>
         
